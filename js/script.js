@@ -26,7 +26,7 @@ function changeImage() {
 	var bird_type = Math.floor((Math.random() * 10) + 1);
 	var bird = Math.floor((Math.random() * 10) + 1);
 
-	var dir = "img/types/" + bird_type + "/";
+	var dir = "types/" + bird_type + "/";
 	var bird_src = dir + bird + ".jpg";
 
   	document.getElementById("image").src = bird_src;
